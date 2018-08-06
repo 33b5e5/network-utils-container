@@ -1,4 +1,4 @@
-Network Utilities Container
+Ubuntu Network Utils
 ===========================
 
 Simple container based on Ubuntu 18.04 with a few network utilities installed:
