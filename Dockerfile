@@ -4,7 +4,8 @@ MAINTAINER 33b5e5 <33b5e5@users.noreply.github.com>
 
 RUN apt-get update \
   && apt-get install -y curl dnsutils htop iproute2 iputils-ping \
-    netcat-openbsd net-tools nmap tcpdump telnet traceroute wget whois
+    netcat-openbsd net-tools nmap tcpdump telnet traceroute wget whois \
+  && rm -rf /var/lib/apt/lists/*
 
 COPY Dockerfile /Dockerfile
 
