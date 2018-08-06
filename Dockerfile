@@ -3,8 +3,8 @@ FROM ubuntu:bionic
 MAINTAINER 33b5e5 <33b5e5@users.noreply.github.com>
 
 RUN apt-get update \
-  && apt-get install -y dnsutils htop netcat-openbsd net-tools nmap tcpdump \
-    traceroute wget whois
+  && apt-get install -y dnsutils htop iproute2 iputils-ping netcat-openbsd \
+    net-tools nmap tcpdump telnet traceroute wget whois
 
 COPY Dockerfile /Dockerfile
 
