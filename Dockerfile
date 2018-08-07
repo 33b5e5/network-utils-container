@@ -11,4 +11,4 @@ COPY Dockerfile /Dockerfile
 
 LABEL org.label-schema.docker.dockerfile="/Dockerfile" \
   org.label-schema.vcs-type="Git" \
-  org.label-schema.vcs-url="https://github.com/33b5e5/network-utils-container"
+  org.label-schema.vcs-url="https://github.com/33b5e5/ubuntu-network-utils"
