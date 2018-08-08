@@ -15,3 +15,11 @@ Simple container based on Ubuntu 18.04 with a few network utilities installed:
   - traceroute
   - wget
   - whois
+
+The apt cache has been removed to keep the container as small as possible. To
+install additional packages you just need to do something like:
+
+```bash
+apt update
+apt install iftop
+```
