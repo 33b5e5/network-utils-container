@@ -17,8 +17,5 @@ Simple container based on Ubuntu 18.04 with a few network utilities installed:
   - whois
 
 The apt cache has been removed to keep the container as small as possible. To
-install additional packages you just need to do something like:
-
-`apt update`
-
-`apt install iftop`
+install additional packages you just need to run `apt update` before running 
+`apt install $package`.
